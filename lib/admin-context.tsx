@@ -20,7 +20,7 @@ interface AdminProviderProps {
 }
 
 // List of admin user IDs
-const ADMIN_USER_IDS = [12345678, 87654321] // Add your specific admin user IDs here
+const ADMIN_USER_IDS = [6686015911] // Add your specific admin user IDs here
 
 export function AdminProvider({ children, userId }: AdminProviderProps) {
   const [editMode, setEditMode] = useState(false)
